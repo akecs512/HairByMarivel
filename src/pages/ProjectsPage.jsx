@@ -8,6 +8,8 @@
 // } from "../lib/content/projectItems";
 // import ProjectCard from "../components/ProjectCard.jsx";
 
+import ImageCard from "../components/ImageCard.jsx"
+
 function ProjectsPage() {
   return (
     <>
@@ -17,6 +19,7 @@ function ProjectsPage() {
       <h3 className="divider text-4xl pt-8 text-accent">
 
       </h3>
+      <ImageCard />
  
       {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
         <ProjectCard

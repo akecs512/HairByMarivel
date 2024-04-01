@@ -5,15 +5,17 @@
 :root {
   color: white;
 }
+
 .hero {
   background-color: #f6ebdb
-
 }
-.card-image{
+
+.card-image {
   height: 200px;
   width: 380px;
   object-fit: fill;
-  margin: 10px 0;;
+  margin: 10px 0;
+  ;
 }
 
 .about-image {
@@ -32,7 +34,8 @@
   align-items: center;
 }
 
-.divider::before, .divider::after {
+.divider::before,
+.divider::after {
   flex: 1;
   content: '';
   padding: 3px;
@@ -52,6 +55,7 @@
   padding: 0.5rem;
 
 }
+
 h1 {
   display: flex;
   justify-content: center;
@@ -60,8 +64,8 @@ h1 {
   font-weight: bold;
   background-color: #007ba7;
   font-family: "Rowdies";
-  
-  
+
+
 }
 
 .Typewriter {
@@ -108,7 +112,7 @@ h3 {
   font-family: "Poppins";
   font-size: 20px;
   padding-bottom: 20px;
-  
+
 }
 
 .header-title {
@@ -154,11 +158,11 @@ h3 {
 }
 
 .list-disc {
-/* flex: 1; */
-height: 150px;
-padding-left: 35px;
-padding-right: 20px;
-padding-top: 4px;
+  /* flex: 1; */
+  height: 150px;
+  padding-left: 35px;
+  padding-right: 20px;
+  padding-top: 4px;
 }
 
 .card-actions {
@@ -204,4 +208,53 @@ padding-top: 4px;
 
 .card {
   height: 750px
+}
+
+
+.content {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../public/images/hair1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 5s;
+
+  animation-name: animate;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url(../public/images/hair2.png);
+  }
+
+  20% {
+    background-image: url(../public/images/hair3.png);
+  }
+
+  40% {
+    background-image: url(../public/images/hair4.png);
+  }
+
+  60% {
+    background-image: url(../public/images/hair5.png);
+  }
+
+  80% {
+    background-image: url(../public/images/hair6.png);
+  }
+
+  100% {
+    background-image: url(../public/images/hair1.png);
+  }
+}
+
+.animate {
+  animation: animate 30s alternate infinite;
 }
