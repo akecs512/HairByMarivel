@@ -109,18 +109,46 @@ h2 {
   display: flex
 }
 
-p {
-  font-family: "Poppins";
-  font-size: 20px;
-  padding: 20px;
-}
+
 
 h3 {
-  font-family: "Poppins";
-  font-size: x-large;
-  padding-top: 10px;
+  font-family: "Montserrat";
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  margin: 10px;
+  font-size: x-large;
+}
+
+hr {
+  width: 30%;
+  background-color: white;
+  height: 1px;
+  margin: 10px;
+
+}
+
+p {
+  font-family: "Montserrat";
+  color: gray;
+  font-size: medium;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+
+.reviewer {
+  /* display: flex; */
+  justify-content: start;
+  /* padding: 20px; */
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 16px;
+
 
 }
 
