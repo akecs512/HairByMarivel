@@ -45,7 +45,7 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
-                    src="/images/logo.png"
+                    src="/images/barberpole.png"
                     alt="Logo"
                   />
                 </div>

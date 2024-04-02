@@ -9,9 +9,8 @@ export default {
 
     extend: {
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
         rowdies: ["Rowdies", "cursive"],
-        poppins: ["Poppins", "sans-serif"],
+        sans: ["Montserrat", "sans-serif"],
       },
       //   colors: {
       //     russian: "#462a67",
@@ -26,8 +25,8 @@ export default {
     themes: [
       {
         mytheme: {
-          primary: "#462a67",
-          secondary: "#007ba7",
+          primary: "#000000",
+          secondary: "#FFFFFF",
           accent: "#cc444b",
           neutral: "#f6ebdb",
           "base-100": "#1d232a",

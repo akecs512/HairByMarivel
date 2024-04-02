@@ -13,15 +13,49 @@ import ImageCard from "../components/ImageCard.jsx"
 function ProjectsPage() {
   return (
     <>
-      <h1 className="mb-4" id="projects">
-        Services
-      </h1>
-      <h3 className="divider text-4xl pt-8 text-accent">
+      <div className="flex flex-row">
+        <div className="basis-1/6 bg-#222">
+          <div className="avatar scale-75">
+            <img src="/images/avatarhair.png"></img>
+          </div>
+          <div className="icon">
+            <img src="/images/barbershopWhite.png"></img>
+          </div>
+          <div>
+            <h2>HOME</h2>
+          </div>
+          <div className="icon">
+            <img src="/images/info.png"></img>
+          </div>
+          <div>
+            <h2>ABOUT</h2>
+          </div>  <div className="icon">
+            <img src="/images/photos.png"></img>
+          </div>
+          <div>
+            <h2>PHOTOS</h2>
+          </div>  <div className="icon">
+            <img src="/images/contact.png"></img>
+          </div>
+          <div>
+            <h2>CONTACT</h2>
+          </div>
+        </div>
+        <div className="basis-5/6 content-center pt-8 bg-black">
+          <div>
+            <h1 className="">
+              I'm Anita Haircut
+            </h1>
+            <h4 className="">
+              Hairstylist
+            </h4>
+          </div>
+          <div className="imageCard flex p-8 justify-center">
+            <ImageCard />
+          </div>
+        </div>
 
-      </h3>
-      <ImageCard />
- 
-      {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
         <ProjectCard
           title="Travelogue Application"
           subtitle="Interactive Full-Stack Application"
@@ -57,6 +91,7 @@ function ProjectsPage() {
           items={noteItems}
         />
       </div> */}
+      </div>
     </>
   );
 }
