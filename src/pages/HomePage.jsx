@@ -70,7 +70,7 @@ function HomePage() {
                 <img className="reviewer" src="/images/face2.png"></img>
 
                 <p className="pt-4">Harry Heade</p>
-                <p>No one better than DiAnne</p>
+                <p>No one better than Marivel</p>
               </div>
             </div>
           </div>
