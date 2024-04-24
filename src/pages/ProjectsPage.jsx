@@ -16,7 +16,7 @@ function ProjectsPage() {
       <div className="flex flex-row">
         <div className="basis-1/6 bg-#222">
           <div className="avatar scale-75">
-            <img src="/images/avatarhair.png"></img>
+            <img src="/images/marivel.JPG"></img>
           </div>
           <div className="icon">
             <img src="/images/barbershopWhite.png"></img>
@@ -28,33 +28,33 @@ function ProjectsPage() {
             <img src="/images/info.png"></img>
           </div>
           <div>
-            <h2>ABOUT</h2>
+            <h2><a href="#About">ABOUT</a></h2>
           </div>  <div className="icon">
             <img src="/images/photos.png"></img>
           </div>
           <div>
-            <h2>PHOTOS</h2>
+            <h2><a href="#Gallery">GALLERY</a></h2>
           </div>  <div className="icon">
             <img src="/images/contact.png"></img>
           </div>
           <div>
-            <h2>CONTACT</h2>
+            <h2><a href="#Contact">CONTACT</a></h2>
           </div>
         </div>
         <div className="basis-5/6 content-center pt-8 bg-black">
           <div>
             <h1 className="">
-              I'm DiAnne Cutz
+              I'm Marivel Sandoval Diaz
             </h1>
             <h4 className="">
-              Hairstylist
+              Hairstylist at Juan Romero Salon
             </h4>
           </div>
           <div className="imageCard flex p-8 justify-center">
             <ImageCard />
           </div>
           <div>
-            <h3>About Me</h3>
+            <h3 id="About">About Me</h3>
             <hr className="rule"></hr>
             <p className="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti consectetur dolore laborum nihil cumque, fugiat voluptatum eaque quisquam, eum quas exercitationem, maiores libero ducimus tempora doloribus molestias vel! Doloribus, magnam?</p>
             <h3>Services</h3>
@@ -83,11 +83,52 @@ function ProjectsPage() {
             </div>
           </div>
 
+          <div >
+            <h3 id="Gallery">Gallery</h3>
+            <br />
+            <hr></hr>
+            <div className="section grid grid-cols-3 pt-16">
+
+              <div>
+                <img className="gallery" src="/images/hair94.JPG"></img>
+              </div>
+              <div>
+                <img className="gallery" src="/images/hair95.JPG"></img>
+              </div>
+              <div>
+                <img className="gallery" src="/images/hair96.JPG"></img>
+              </div>
+              <div>
+                <img className="gallery" src="/images/hair97.JPG"></img>
+              </div>
+              <div>
+                <img className="gallery" src="/images/hair98.JPG"></img>
+              </div>
+              <div>
+                <img className="gallery" src="/images/hair99.JPG"></img>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div className="section pt-16">
+            <h3 id="Contact">Contact</h3>
+            <hr></hr>
+            <p>
+              @Juan Romero Salon <br />
+              6000 S Congress Ave STE 104 <br />
+              Austin, TX 78745 <br />
+              <a href="tel:512-487-9636">512-487-9636</a>
+            </p>
+
+          </div>
+
         </div>
 
 
 
-      </div>
+      </div >
     </>
   );
 }

@@ -5,7 +5,7 @@ import ErrorPage from "./pages/ErrorPage";
 import HomePage from "./pages/HomePage";
 import ProjectsPage from "./pages/ProjectsPage";
 import AboutPage from "./pages/AboutPage";
-// import ContactPage from "./pages/ContactPage";
+import TestPage from "./pages/TestPage";
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -28,8 +28,8 @@ const router = createBrowserRouter([
       },
    
       {
-        // path: "/Contact",
-        // element: <ContactPage />,
+        path: "Test",
+        element: <TestPage />,
       },
     ],
   },
