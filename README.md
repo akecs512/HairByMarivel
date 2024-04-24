@@ -15,7 +15,9 @@ This is a single page website for a hairstylist.
 
 ## Screenshots
   <img width="1281" alt="Screen Shot 2024-04-24 at 8 25 09 AM" src="https://github.com/akecs512/StylistWebsite/assets/79340489/e61bf432-642e-49f4-be2a-a201d8645003">
+  <img width="1137" alt="Screen Shot 2024-04-24 at 8 28 53 AM" src="https://github.com/akecs512/StylistWebsite/assets/79340489/65896ce4-3ef6-4473-b2e7-0bdfa5d882d4">
 <img width="1355" alt="Screen Shot 2024-04-24 at 8 25 30 AM" src="https://github.com/akecs512/StylistWebsite/assets/79340489/97a94ca0-5871-4bdd-8fa2-ef1559cdbc79">
+
 
 ## Deployed Website
 
